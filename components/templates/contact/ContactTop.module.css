@@ -1,0 +1,56 @@
+.container  {
+  padding-top: 85px;
+  background-color: var(--light-gray);
+  padding-left: var(--gap-l);
+  padding-top: min(11rem, 25vh);
+  color: var(--blue);
+}
+
+.first_header {
+  font-family: var(--accent-font);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-regular);
+  color: var(--red);
+  position: relative;
+  padding-left: 2rem;
+}
+
+.first_header::before {
+  content: "";
+  position: absolute;
+  top: 48%;
+  left: 2px;
+  width: 1.2rem;
+  height: 2px;
+  background-color: var(--red);
+}
+
+.second_header  {
+  font-family: var(--header);
+  font-size: var(--fs-1000);
+  line-height: 1.1;
+  width: 80%;
+  padding-top: 0.5rem;
+}
+
+.text {
+  font-size: var(--fs-200);
+  padding: 1.1rem 0rem;
+  width: 70%;
+  line-height: 1.3;
+}
+
+@media screen and (max-width: 1000px) {
+  .second_header  {
+    width: 90%;
+  }
+  .text {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container  {
+    padding-left: var(--gap-m);
+  }
+}

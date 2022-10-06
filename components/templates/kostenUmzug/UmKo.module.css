@@ -1,0 +1,25 @@
+.tablet {
+  display: none;
+}
+
+.phone  {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .desktop  {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 580px) {
+  .tablet {
+    display: none;
+  }
+  .phone {
+    display: block;
+  }
+}

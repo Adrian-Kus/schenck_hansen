@@ -1,0 +1,156 @@
+.nav {
+  background-color: var(--white);
+  color: var(--blue);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+}
+
+.frame {
+  margin: 0 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 85px;
+}
+
+.logo {
+  width: 190px;
+  padding-top: 9px;
+}
+
+.logo_img {
+  cursor: pointer;
+}
+
+.link_section {
+  height: 100vh;
+  background-color: var(--blue);
+}
+
+.links {
+  padding-top: 10%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links_li {
+  list-style: none;
+}
+
+.links a {
+  font-family: var(--subheader);
+  font-size: var(--fs-700);
+  color: var(--light-gray);
+  position: relative;
+}
+
+.links a::after  {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 3px;
+  background: var(--light-gray);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 225ms ease-in;
+}
+
+.links a:hover::after  {
+  transform: scaleX(1);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+}
+
+.call_symbol  {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-right: 0.8em;
+}
+
+.call_number  {
+  font-size: 1.35rem;
+  font-weight: var(--fw-medium);
+}
+
+.hamburger  {
+  width: 33px;
+  height: 33px;
+  margin: 2px 0px 0px 45px;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 900px) {
+  .frame {
+    margin: 0 3.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hamburger  {
+    margin: 2px 0px 0px 35px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .frame {
+    margin: 0 2.5rem;
+  }
+  .call_symbol  {
+    width: 33px;
+    height: 33px;
+  }
+  .call_number  {
+    display: none;
+  }
+  .hamburger  {
+    margin: 2px 0px 0px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 165px;
+    padding-top: 11px;
+  }
+  .links a {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .links a {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .frame {
+    margin: 0 1.7rem;
+  }
+  .logo {
+    width: 140px;
+    padding-top: 11px;
+  }
+  .call_symbol  {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.4em;
+  }
+}

@@ -1,0 +1,22 @@
+.image  {
+  width: 60px;
+  height: 60px;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.image:focus {
+    outline: none !important;
+}
+
+.image:focus {
+    outline: none !important;
+}
+
+
+@media screen and (max-width: 500px) {
+  .image  {
+    width: 45px;
+    height: 45px;
+  }
+}

@@ -1,0 +1,127 @@
+.frame  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-gray);
+  padding: var(--gap-xl) var(--gap-xxl);
+}
+
+.header  {
+  font-family: var(--accent-font);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-regular);
+  color: var(--red);
+  text-align: center;
+}
+
+.subheader  {
+  font-family: var(--caption);
+  font-size: var(--fs-700);
+  font-weight: var(--fw-medium);
+  text-align: center;
+}
+
+.text {
+  font-size: var(--fs-300);
+  line-height: 1.5;
+  text-align: center;
+  width: min(70vw, 80rem);
+  padding: 0.75em 1em 1.7em 1em;
+}
+
+.btn  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: var(--red);
+  color: var(--white);
+  outline: none;
+  font-size: var(--fs-100);
+  font-weight: var(--fw-medium);
+  pointer-events: auto;
+  cursor: pointer;
+  width: 20rem;
+  height: 3.25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn::before {
+  content:"";
+  position: absolute;
+  background-color: #99091c;
+  height: 100%;
+  width: 135%;
+  top: 0;
+  left: 0;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 102%, 0% 102%, 0% 0%);
+  transform: translate3d(-100%,0,0);
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #99091c;
+  height: 100%;
+  width: 105%;
+  transform: translate3d(100%,0,0);
+  transition: transform 0.4s cubic-bezier(.42,.22,.42,1);
+}
+
+.btn:hover::before {
+  transform: translate3d(0,0,0);
+  transition: transform 0.4s cubic-bezier(.42,.22,.42,1);
+}
+
+.btn:hover::after {
+  transform: translate3d(0,0,0);
+  transition: transform 0.01s 0.4s cubic-bezier(.42,.22,.42,1);
+}
+
+.btn_inner  {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.btn__icon {
+  color: var(--white);
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .frame  {
+    padding: var(--gap-xxl) var(--gap-l);
+  }
+  .text {
+    width: min(79vw, 80rem);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header  {
+    text-align: center;
+    padding: 0rem 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btn  {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header  {
+    font-size: 1rem;
+  }
+  .text {
+    padding: 0.75em 0em 1.7em 0em;
+  }
+}
