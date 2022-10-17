@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Head from "next/head";
-import Script from "next/script";
 import { useRouter } from "next/router";
 import "../styles/globals.css";
 import Layout from "components/layouts/Layout";
@@ -25,12 +24,6 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href={canonicalUrl} />
       </Head>
-      <Script
-        id="CookieDeclaration"
-        src="https://consent.cookiebot.com/9258f6ff-daff-4b79-8a4c-365206503dd0/cd.js"
-        type="text/javascript"
-        async
-      ></Script>
       <Layout>
         <Component {...pageProps} />
       </Layout>
