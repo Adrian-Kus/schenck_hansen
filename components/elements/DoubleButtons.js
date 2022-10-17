@@ -9,7 +9,7 @@ function DoubleButtons() {
           target="_blank"
           rel="noreferrer"
           className={double.buttons__btn_left}
-          href="https://angebot.schenck-hansen.de/umziehen-lassen/"
+          href="https://angebot.schenck-hansen.de/start/"
         >
           <span className={double.btn_inner}>
             Jetzt online Angebot erstellen
