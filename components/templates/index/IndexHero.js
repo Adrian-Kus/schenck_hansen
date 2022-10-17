@@ -58,7 +58,7 @@ function IndexHero() {
             target="_blank"
             rel="noreferrer"
             className={hero.btn}
-            href="https://angebot.schenck-hansen.de/umziehen-lassen/"
+            href="https://angebot.schenck-hansen.de/start/"
           >
             <span className={hero.btn_inner}>
               Jetzt Angebot erstellen
