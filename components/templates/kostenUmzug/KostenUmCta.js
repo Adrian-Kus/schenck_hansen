@@ -20,7 +20,7 @@ function KostenUmCta() {
           target="_blank"
           rel="noreferrer"
           className={cta.btn}
-          href="https://angebot.schenck-hansen.de/umziehen-lassen/"
+          href="https://angebot.schenck-hansen.de/start/"
         >
           <span className={cta.btn_inner}>
             Jetzt online Angebot erstellen
