@@ -28,7 +28,7 @@ function BueroText() {
         <div className={text.text_right_01}>
           <h2 className={text.header}>Büroumzug Hamburg - Lösungen</h2>
           <h3 className={text.subheader}>
-            Ganzheitliche Lösungen für erfolgreiche Umzüge
+            Ganzheitliche Lösungen für erfolgreiche Büroumzüge
           </h3>
           <p className={text.text}>
             Wir schaffen ganz&shy;heitliche Lö&shy;sun&shy;gen, die Sie

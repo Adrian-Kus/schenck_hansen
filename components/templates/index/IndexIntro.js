@@ -12,11 +12,12 @@ function IndexIntro() {
           Wir sind Ihr Full-Service-Umzugs&shy;unter&shy;nehmen aus der
           Hanse&shy;stadt Hamburg. Um&shy;züge, regional, na&shy;ti&shy;onal und
           auch inter&shy;na&shy;ti&shy;onal sind nicht nur unser daily Business,
-          sondern auch unsere Leiden&shy;schaft. Quali&shy;tät, Termin&shy;treue
-          und Zu&shy;ver&shy;lässig&shy;keit stehen bei uns an obers&shy;ter
-          Stelle. Unsere Kom&shy;petenz und Er&shy;fah&shy;rung sind unser
-          Kapital, unser Team unser Stolz. So machen wir für Sie jeden Tag
-          großes möglich … und genau das zeichnet uns aus.
+          sondern auch unsere Leiden&shy;schaft. Für uns als
+          Umzugs&shy;unternehmen stehen Quali&shy;tät, Termin&shy;treue und
+          Zu&shy;ver&shy;lässig&shy;keit an obers&shy;ter Stelle. Unsere
+          Kom&shy;petenz und Er&shy;fah&shy;rung sind unser Kapital, unser Team
+          unser Stolz. So machen wir für Sie jeden Tag großes möglich … und
+          genau das zeichnet uns aus.
         </p>
       </div>
     </>

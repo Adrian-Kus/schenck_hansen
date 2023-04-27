@@ -25,7 +25,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -33,7 +33,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -41,7 +41,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -49,7 +49,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -57,13 +57,13 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
             </div>
           </div>
-          <p className={rew.box__text}>243 Bewertungen</p>
+          <p className={rew.box__text}>245 Bewertungen</p>
         </div>
 
         <div className={rew.box}>
@@ -86,7 +86,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -94,7 +94,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -102,7 +102,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -110,7 +110,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -118,13 +118,13 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
             </div>
           </div>
-          <p className={rew.box__text}>85 Bewertungen</p>
+          <p className={rew.box__text}>97 Bewertungen</p>
         </div>
 
         <div className={rew.box}>
@@ -147,7 +147,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -155,7 +155,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -163,7 +163,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -171,7 +171,7 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/full_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="500"
                 height="500"
               ></Image>
@@ -179,13 +179,13 @@ function Reviews() {
             <div className={rew.box__stars_img}>
               <Image
                 src="/half_star.svg"
-                alt="Fünf Sterne Bewertung"
+                alt="Bewertung"
                 width="512"
                 height="512"
               ></Image>
             </div>
           </div>
-          <p className={rew.box__text}>26 Bewertungen</p>
+          <p className={rew.box__text}>27 Bewertungen</p>
         </div>
       </div>
     </>

@@ -34,6 +34,7 @@ function UmzugFestpreis() {
       <Hero
         hero_first_header="Umzug Hamburg Festpreis"
         hero_second_header="Ziehen Sie ganz bequem zum Festpreis um"
+        hero_text="Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz persön­liches Umzugsangebot."
         hero_image={FestprHeroImg}
         hero_alt="Zufriedenes Paar nach einem Umzug in Hamburg zum Festpreis"
         hero_image_large={FestprHeroImgLarge}

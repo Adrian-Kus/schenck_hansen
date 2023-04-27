@@ -1,3 +1,7 @@
+:root {
+  color-scheme: only light;
+}
+
 html,
 body {
   font-family: work-sans, Helvetica Neue, sans-serif;
@@ -7,25 +11,19 @@ body {
   --subheader: minion-pro-subhead, serif;
   --accent-font: roboto-mono, monospace;
 
-
-
   --fs-100: clamp(0.96rem, calc(1.05rem + -0.08vw), 1.04rem);
-  --fs-200: clamp(1.17rem, calc(1.16rem + 0.03vw), 1.20rem);
-  --fs-300: clamp(1.31rem, calc(1.27rem + 0vw), 1.40rem);
+  --fs-200: clamp(1.17rem, calc(1.16rem + 0.03vw), 1.2rem);
+  --fs-300: clamp(1.31rem, calc(1.27rem + 0vw), 1.4rem);
   --fs-400: clamp(1.45rem, calc(1.3rem + 0.36vw), 1.88rem);
-  --fs-500: clamp(1.95rem, calc(1.50rem + 1.90vw), 2.34rem);
+  --fs-500: clamp(1.95rem, calc(1.5rem + 1.9vw), 2.34rem);
   --fs-600: clamp(1.87rem, calc(1.62rem + 1.09vw), 2.4rem);
-  --fs-700: clamp(2.4rem, calc(1.74rem + 2.60vw), 3.66rem);
+  --fs-700: clamp(2.4rem, calc(1.74rem + 2.6vw), 3.66rem);
   --fs-1000: clamp(2.45rem, calc(1.85rem + 2.45vw), 4.58rem);
-
-
 
   --fw-light: 300;
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-semibold: 600;
-
-
 
   --blue: #001e3e;
   --red: #b10921;
@@ -35,7 +33,6 @@ body {
   --brown: #c3b59b;
   --light-brown: #b1b4b3;
   --light-black: #252a2f;
-
 
   --gap-xxxl: clamp(11rem, 16.5vw, 20rem);
   --gap-xxl: clamp(9rem, 14.5vw, 18rem);
@@ -57,17 +54,7 @@ a {
   padding: 0;
 }
 
-
-
-
-
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.map-container {
+  width: 100%;
+  height: 60vh;
 }

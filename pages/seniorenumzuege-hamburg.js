@@ -13,6 +13,7 @@ import SeniorenDoubleTwo from "public/umzugskartons_in_einem_raum_vor_dem_umzug.
 import ServiceIntroOne from "components/elements/ServiceIntroOne";
 import MovingServices from "components/elements/MovingServices";
 import SeniorenFaq from "components/templates/seniorenumzug/SeniorenFaq";
+import SeniorenBottomText from "components/templates/seniorenumzug/SeniorenBottomText";
 import { LayoutGroup } from "framer-motion";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -32,12 +33,13 @@ function SeniorenumzugHamburg() {
       </Head>
       <Navbar />
       <Hero
-        hero_first_header="Seniorenumzüge Hamburg"
-        hero_second_header="Senioren&shy;um&shy;züge, die keine Wünsche offen lassen"
+        hero_first_header="Seniorenumzüge mit Schenck & Hansen"
+        hero_second_header="Senioren&shy;um&shy;züge Hamburg"
+        hero_text="Wir bieten Senioren&shy;umzüge, die keine Wünsche offen lassen. Nutzen Sie jetzt unseren Rechner und erstellen Sie Ihr ganz persön­liches Online-Angebot."
         hero_image={SeniorenHeroImg}
-        hero_alt="Seniorenumzüge in Hamburg mit Schenck und Hansen"
+        hero_alt="Seniorenumzüge Hamburg"
         hero_image_large={SeniorenHeroImgLarge}
-        hero_alt_large="Seniorenumzüge in Hamburg mit Schenck und Hansen - Querformat"
+        hero_alt_large="Seniorenumzüge Hamburg"
       />
       <Reviews />
       <SeniorenIntro />
@@ -57,6 +59,7 @@ function SeniorenumzugHamburg() {
             <SeniorenFaq />
           </motion.div>
           <motion.div layout>
+            <SeniorenBottomText />
             <SeniorenCta />
           </motion.div>
         </AnimatePresence>

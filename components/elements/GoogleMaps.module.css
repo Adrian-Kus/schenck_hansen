@@ -1,0 +1,19 @@
+.container {
+  background-color: var(--light-gray);
+}
+
+.header {
+  font-family: var(--accent-font);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-regular);
+  color: var(--red);
+  text-align: center;
+}
+
+.sub_header {
+  font-family: var(--caption);
+  font-size: var(--fs-700);
+  font-weight: var(--fw-medium);
+  text-align: center;
+  padding-bottom: 2rem;
+}

@@ -34,6 +34,7 @@ function UmzugsunternehmenAhrensburg() {
       <Hero
         hero_first_header="Umzugsunternehmen Ahrensburg"
         hero_second_header="Starke Leistungen für Ihren Umzug in Ahrensburg"
+        hero_text="Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz persön­liches Umzugsangebot."
         hero_image={UmzAhrensHeroImg}
         hero_alt="Älteres Ehepaar bei einem Umzug in Ahrensburg"
         hero_image_large={UmzAhrensHeroImgLarge}

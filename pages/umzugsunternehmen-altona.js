@@ -34,6 +34,7 @@ function UmzugsunternehmenAltona() {
       <Hero
         hero_first_header="Umzugsunternehmen Altona"
         hero_second_header="Umzüge, die Sie lieben werden"
+        hero_text="Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz persön­liches Umzugsangebot."
         hero_image={UmzAltoHeroImg}
         hero_alt="Sofa und Umzugkartons bereit für den Umzug in Hamburg Altona"
         hero_image_large={UmzAltoHeroImgLarge}

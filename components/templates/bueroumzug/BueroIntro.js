@@ -10,8 +10,8 @@ function BueroIntro() {
         </h3>
         <p className={int.frame__text}>
           Wir sind Ihr Umzugs&shy;unter&shy;nehmen mit Fokus auf
-          hoch&shy;wertige Privat&shy;umzüge und an&shy;spruchs&shy;volle
-          Büro&shy;umzüge. Über 120 Jahre Erfahrung machen uns zum idealen
+          hoch&shy;wertige Büro&shy;umzüge und an&shy;spruchs&shy;volle
+          Gewerbe&shy;umzüge. Über 120 Jahre Erfahrung machen uns zum idealen
           Weg&shy;begleiter für an&shy;spruchs&shy;volle und kom&shy;plexe
           Firmen&shy;um&shy;züge in Hamburg. Von der Beratung, über die
           Ab&shy;laufs&shy;planung bis zur Um&shy;zugs&shy;durch&shy;führung

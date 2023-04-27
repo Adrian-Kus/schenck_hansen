@@ -13,10 +13,10 @@ function MainCta(props) {
         <p className={cta.text}>
           Sie wissen schon was Sie brauchen? Nutzen Sie jetzt ganz bequem,
           kostenlos & unverbindlich unseren Umzugskostenrechner. Sie erhalten
-          10% Online-Rabatt und in nur wenigen Minuten Ihren ganz persönlichen
-          Festpreis. Sie wünschen eine ausführliche Umzugsberatung? Dann
-          reservieren Sie jetzt Ihren persönlichen Termin für eine
-          Videobesichtigung mit unseren Umzugsexperten.
+          bis zu 100€ Online-Rabatt und in nur wenigen Minuten Ihren ganz
+          persönlichen Festpreis. Sie wünschen eine ausführliche Umzugsberatung?
+          Dann reservieren Sie jetzt Ihren persönlichen Termin für eine
+          Videobesichtigung mit unseren Experten vom Umzugsunternehmen Hamburg.
         </p>
         <DoubleButtons a_001={utmtrack01} a_002={utmtrack02} />
       </div>

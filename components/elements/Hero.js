@@ -9,10 +9,7 @@ function Hero(props) {
         <div className={hero.container__left}>
           <h1 className={hero.first_header}>{props.hero_first_header}</h1>
           <h2 className={hero.second_header}>{props.hero_second_header}</h2>
-          <p className={hero.text}>
-            Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz
-            persön&shy;liches Umzugs&shy;angebot.
-          </p>
+          <p className={hero.text}>{props.hero_text}</p>
           <ul className={hero.list}>
             <li className={hero.list__item}>
               <div className={hero.list__item_img}>
@@ -24,7 +21,7 @@ function Hero(props) {
                 ></Image>
               </div>
               <span className={hero.list__item_text}>
-                Jetzt mit 10% Online-Rabatt
+                Jetzt mit bis zu 100€ Online-Rabatt
               </span>
             </li>
             <li className={hero.list__item}>

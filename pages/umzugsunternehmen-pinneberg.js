@@ -34,6 +34,7 @@ function UmzugsunternehmenPinneberg() {
       <Hero
         hero_first_header="Umzugsunternehmen Pinneberg"
         hero_second_header="Wir kümmern uns um Ihren Umzug in Pinneberg"
+        hero_text="Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz persön­liches Umzugsangebot."
         hero_image={UmzPinneHeroImg}
         hero_alt="Wohnungseinrichtung verpackt für den Umzug in Pinneberg"
         hero_image_large={UmzPinneHeroImgLarge}

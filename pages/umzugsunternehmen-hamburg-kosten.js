@@ -35,6 +35,7 @@ function UmzugKosten() {
       <Hero
         hero_first_header="Umzugsunternehmen Hamburg Kosten"
         hero_second_header="Wie viel kostet eine Umzugs&shy;firma in Hamburg?"
+        hero_text="Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz persön­liches Umzugsangebot."
         hero_image={KostenUmHeroImg}
         hero_alt="Mann informiert sich über Kosten Umzugsunternehmen Hamburg"
         hero_image_large={KostenUmHeroImgLarge}

@@ -34,6 +34,7 @@ function UmzugsunternehmenEimsbuettel() {
       <Hero
         hero_first_header="Umzugsunternehmen Eimsbüttel"
         hero_second_header="Ihre Umzugsfirma für Eimsbüttel"
+        hero_text="Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz persön­liches Umzugsangebot."
         hero_image={UmzEimsHeroImg}
         hero_alt="Mann am Umzugstag in seiner Wohnung in Eimsbüttel"
         hero_image_large={UmzEimsHeroImgLarge}

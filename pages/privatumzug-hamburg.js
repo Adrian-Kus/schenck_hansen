@@ -32,8 +32,9 @@ function PrivatumzugHamburg() {
       </Head>
       <Navbar />
       <Hero
-        hero_first_header="Privatumzug Hamburg"
-        hero_second_header="Full-Service für Ihren Privat&shy;um&shy;zug"
+        hero_first_header="PRIVATUMZUG MIT SCHENCK & HANSEN"
+        hero_second_header="Privat­um­zug Hamburg"
+        hero_text="Wir kümmern uns um Ihren Privatumzug in Hamburg. Nutzen Sie jetzt unseren Rechner und erstellen Sie mit nur wenigen Klicks Ihr ganz persön­liches Online-Angebot."
         hero_image={PrivatHeroImg}
         hero_alt="Privatumzug Hamburg"
         hero_image_large={PrivatHeroImgLarge}

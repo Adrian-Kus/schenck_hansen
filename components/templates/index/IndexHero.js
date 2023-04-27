@@ -7,31 +7,32 @@ function IndexHero() {
     <>
       <div className={hero.container}>
         <div className={hero.container__left}>
-          <h1 className={hero.first_header}>Umzugsunternehmen Hamburg</h1>
-          <h2 className={hero.second_header}>Wir kümmern uns um Ihren Umzug</h2>
+          <p className={hero.first_header}>Umzüge mit Schenck & Hansen</p>
+          <h1 className={hero.second_header}>Umzugsunternehmen Hamburg</h1>
           <p className={hero.text}>
-            Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz
-            persön&shy;liches Umzugsangebot.
+            Wir sind Ihr Umzugs&shy;unter&shy;nehmen in Hamburg für Nahumzüge
+            und Fernumzüge. Nutzen Sie jetzt unseren Rechner für Ihr ganz
+            persönliches Angebot.
           </p>
           <ul className={hero.list}>
             <li className={hero.list__item}>
               <div className={hero.list__item_img}>
                 <Image
                   src="/checkmark.png"
-                  alt="Erledigt Symbol"
+                  alt="In Umzugsangebot vom Umzugsunternehmen Schenck & Hansen enthalten"
                   width="170"
                   height="170"
                 ></Image>
               </div>
               <span className={hero.list__item_text}>
-                Jetzt mit 10% Online-Rabatt
+                Jetzt mit bis zu 100€ Online-Rabatt
               </span>
             </li>
             <li className={hero.list__item}>
               <div className={hero.list__item_img}>
                 <Image
                   src="/checkmark.png"
-                  alt="Erledigt Symbol"
+                  alt="In Umzugsangebot vom Umzugsunternehmen Schenck & Hansen enthalten"
                   width="170"
                   height="170"
                 ></Image>
@@ -44,7 +45,7 @@ function IndexHero() {
               <div className={hero.list__item_img}>
                 <Image
                   src="/checkmark.png"
-                  alt="Erledigt Symbol"
+                  alt="In Umzugsangebot vom Umzugsunternehmen Schenck & Hansen enthalten"
                   width="170"
                   height="170"
                 ></Image>

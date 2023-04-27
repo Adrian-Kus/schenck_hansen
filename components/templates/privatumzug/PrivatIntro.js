@@ -15,12 +15,13 @@ function PrivatIntro() {
           Hause - Ihre Möbel sind auf&shy;ge&shy;baut, alle Lampen hängen, die
           Wasch&shy;maschine ist an&shy;ge&shy;schlos&shy;sen und Ihre Kisten
           sind alle aus&shy;ge&shy;packt. Wir bieten Ent&shy;span&shy;nung statt
-          Umzugs&shy;stress. Sie brauchen nur einen klas&shy;sischen Umzug? Kein
-          Problem. Wir denken mit, packen sorg&shy;sam und um&shy;sichtig Ihr
-          Um&shy;zugs&shy;gut auf die Möbel&shy;fahr&shy;zeuge und entladen Ihr
-          Hab und Gut dort, wo Sie es sich wünschen. Wir freuen uns darauf Ihren
-          Umzug so einfach und sorgen&shy;los wie möglich zu ge&shy;stalten. Mit
-          mehreren Jahr&shy;zehnten Er&shy;fah&shy;rung wissen wir genau wie Ihr
+          Umzugs&shy;stress. Sie brauchen nur einen klas&shy;sischen
+          Privat&shy;umzug? Kein Problem. Wir denken mit, packen sorg&shy;sam
+          und um&shy;sichtig Ihr Um&shy;zugs&shy;gut auf die
+          Möbel&shy;fahr&shy;zeuge und entladen Ihr Hab und Gut dort, wo Sie es
+          sich wünschen. Wir freuen uns darauf Ihren Umzug so einfach und
+          sorgen&shy;los wie möglich zu ge&shy;stalten. Mit mehreren
+          Jahr&shy;zehnten Er&shy;fah&shy;rung wissen wir genau wie Ihr
           Privat&shy;umzug in Hamburg, deutsch&shy;land&shy;weit oder auch
           inter&shy;national zum vollen Erfolg wird.
         </p>

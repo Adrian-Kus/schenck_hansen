@@ -12,8 +12,8 @@ function UmzAhrensCta() {
         <p className={cta.text}>
           Sie wissen schon was Sie brauchen? Nutzen Sie jetzt ganz bequem,
           kostenlos & unverbindlich unseren Umzugs&shy;kosten&shy;rechner. Sie
-          erhalten 10% Online-Rabatt und in nur wenigen Minuten Ihren ganz
-          persönlichen Festpreis. Sie wünschen eine ausführliche
+          erhalten bis zu 100€ Online-Rabatt und in nur wenigen Minuten Ihren
+          ganz persönlichen Festpreis. Sie wünschen eine ausführliche
           Umzugs&shy;beratung? Dann reservieren Sie jetzt Ihren persönlichen
           Termin für eine Video&shy;besichtigung mit unseren Umzugsexperten.
         </p>

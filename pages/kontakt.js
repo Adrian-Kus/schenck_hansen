@@ -3,6 +3,7 @@ import Navbar from "components/layouts/Navbar";
 import ContactTop from "components/templates/contact/ContactTop";
 import ContactForm from "components/templates/contact/ContactForm";
 import MainCta from "components/elements/MainCta";
+import GoogleMaps from "components/elements/GoogleMaps";
 
 function Kontakt() {
   return (
@@ -22,6 +23,7 @@ function Kontakt() {
       <ContactTop />
       <ContactForm />
       <MainCta header="Unser Angebot für Ihren Umzug" />
+      <GoogleMaps />
     </>
   );
 }

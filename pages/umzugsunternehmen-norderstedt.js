@@ -34,6 +34,7 @@ function UmzugsunternehmenNorderstedt() {
       <Hero
         hero_first_header="Umzugsunternehmen Norderstedt"
         hero_second_header="Professionelle Umzüge für Norderstedt"
+        hero_text="Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz persön­liches Umzugsangebot."
         hero_image={UmzNordHeroImg}
         hero_alt="Umzug nach Norderstedt mit der ganzen Familie"
         hero_image_large={UmzNordHeroImgLarge}

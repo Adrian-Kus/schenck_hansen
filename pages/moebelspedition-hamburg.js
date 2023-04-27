@@ -34,6 +34,7 @@ function MoebelspeditionHamburg() {
       <Hero
         hero_first_header="Möbelspedition Hamburg"
         hero_second_header="Die Möbel&shy;spe&shy;di&shy;tion  an Ihrer Seite"
+        hero_text="Erstellen Sie jetzt online mit nur wenigen Klicks Ihr ganz persön­liches Umzugsangebot."
         hero_image={SpediHeroImg}
         hero_alt="Umzug mit der Möbelspedition Hamburg"
         hero_image_large={SpediHeroImgLarge}

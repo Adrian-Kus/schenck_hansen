@@ -127,7 +127,7 @@ function Footer() {
 
         <div className={foot.legal}>
           <p className={foot.legal__copyright}>
-            &#169; 2022 Schenck & Hansen KG
+            &#169; 2023 Schenck & Hansen KG
           </p>
           <ul className={foot.legal__links}>
             <li className={foot.legal__links_li}>

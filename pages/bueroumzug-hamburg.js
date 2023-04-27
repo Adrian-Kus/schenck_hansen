@@ -32,9 +32,9 @@ function BueroumzugHamburg() {
       </Head>
       <Navbar />
       <HeroAlternativeOne
-        hero_first_header="Büroumzug Hamburg"
-        hero_second_header="Ihr Partner für Firmenumzüge"
-        hero_text="Wählen Sie jetzt Ihren Wunschtermin für eine kostenlose & unverbindliche Beratung bei Ihnen vor Ort."
+        hero_first_header="Gewerbeumzüge mit Schenck & Hansen"
+        hero_second_header="Büroumzug Hamburg"
+        hero_text="Gerne beraten wir Sie zu Ihrem Büroumzug Hamburg. Wählen Sie jetzt Ihren Wunschtermin."
         btn_href="https://angebot.schenck-hansen.de/besichtigungstermin/"
         hero_image={BueroHeroImg}
         hero_alt="Büro vor einem Büroumzug"
