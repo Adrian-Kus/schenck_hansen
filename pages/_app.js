@@ -15,7 +15,8 @@ function MyApp({ Component, pageProps }) {
 
   const router = useRouter();
   const canonicalUrl = (
-    `https://schenck-hansen.de` + (router.asPath === "/" ? "" : router.asPath)
+    `https://www.schenck-hansen.de` +
+    (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
 
   return (
