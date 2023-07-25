@@ -1,7 +1,7 @@
 import Image from "next/image";
-import rew from "components/elements/Reviews.module.css";
+import rew from "components/elements/ReviewsSmall.module.css";
 
-function Reviews() {
+function ReviewsSmall() {
   return (
     <>
       <div className={rew.frame}>
@@ -192,4 +192,4 @@ function Reviews() {
   );
 }
 
-export default Reviews;
+export default ReviewsSmall;

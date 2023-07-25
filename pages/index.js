@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Navbar from "components/layouts/Navbar";
 import IndexHero from "components/templates/index/IndexHero";
-import Reviews from "components/elements/Reviews";
 import IndexIntro from "components/templates/index/IndexIntro";
 import IndexText from "components/templates/index/IndexText";
 import IndexCta from "components/templates/index/IndexCta";
@@ -72,7 +71,6 @@ export default function Home() {
       </Head>
       <Navbar />
       <IndexHero />
-      <Reviews />
       <IndexIntro />
       <IndexText />
       <IndexCta />
