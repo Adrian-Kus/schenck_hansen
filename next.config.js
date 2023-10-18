@@ -17,13 +17,12 @@ const nextConfig = {
   async headers() {
     return [
       {
-        // matching all API routes
         source: "/api/:path*",
         headers: [
           { key: "Access-Control-Allow-Credentials", value: "true" },
           {
             key: "Access-Control-Allow-Origin",
-            value: "https://schenck-hansen.de/",
+            value: "https://schenck-hansen.de",
           },
           {
             key: "Access-Control-Allow-Methods",
