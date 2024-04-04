@@ -154,3 +154,7 @@
     margin-right: 0.4em;
   }
 }
+
+.none {
+  display: none;
+}
