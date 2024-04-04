@@ -42,8 +42,8 @@ function NavbarDesktop() {
               </Link>
             </li>
             <li className={desktop.links_li}>
-              <Link className={desktop.none} href="/kontakt">
-                <a>Kontakt</a>
+              <Link href="/kontakt">
+                <a className={desktop.none}>Kontakt</a>
               </Link>
             </li>
             <li className={desktop.links_li}>
