@@ -43,7 +43,7 @@ function NavbarDesktop() {
             </li>
             <li className={desktop.links_li}>
               <Link href="/kontakt">
-                <a>Kontakt</a>
+                <a style="display:none">Kontakt</a>
               </Link>
             </li>
             <li className={desktop.links_li}>
