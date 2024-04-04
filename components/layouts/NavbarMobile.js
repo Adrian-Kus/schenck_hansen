@@ -72,7 +72,7 @@ function Links(props) {
               className={mobile.links_li}
             >
               <Link href="/kontakt">
-                <a className={desktop.none}>Kontakt</a>
+                <a className={mobile.none}>Kontakt</a>
               </Link>
             </motion.li>
           </ul>
